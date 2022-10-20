@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+
+   </style>
+</head>
+<body>
+   <div class="hero" style=" height: 850px;
+    width: 100%;background: linear-gradient(to right,#ff105f,#ffad06);transition: .3s;
+     background-position: center; background-size:cover; position: absolute">
+    {{>navbar}}
+    <div id="myform" style="border: 2px solid white; padding:20px; width:500px ; height:650px; text-align:center; margin:50px; margin-left:450px;">
+<h1 style="color:white; margin-bottom: 30px;"> 
+    Contact Us
+</h1>
+<section class="contact-wrap">
+  <form action="/contact" class="contact-form">
+    <div class="col-sm-12">
+      <div class="input-block">
+        <label for="" style="color: white; margin: 2px; ">First Name</label>
+        <input type="text" class="form-control" style="margin-bottom:20px" name="fname">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block">
+        <label for=""  style="color: white; margin: 2px; " name="lname">Last Name</label>
+        <input type="text" style="margin-bottom:20px" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block">
+        <label for=""  style="color: white; margin: 2px; ">Email</label>
+        <input type="text" class="form-control" style="margin-bottom:20px" name="email">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block">
+        <label for=""  style="color: white; margin: 2px; ">Message Subject</label>
+        <input type="text" class="form-control" style="margin-bottom:20px" name="msg">
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="input-block textarea">
+        <label for=""  style="color: white; margin: 2px; ">Drop your message here</label>
+        <textarea rows="3" type="text" class="form-control" style="margin-bottom:20px" name="tarea"></textarea>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <button type="submit" class="square-button" style="background-color:rgb(201, 1, 1); color:white; padding:8px; border-radius:40px;border:2px solid white; width:300px">Send</button>
+    </div>
+  </form>
+</section>
+  </div>
+
+
+
+   </div>
+
+</body>
+</html>
